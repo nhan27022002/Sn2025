@@ -1,0 +1,14 @@
+{
+  "name": "vongquaymayman",
+  "version": "1.0.0",
+  "description": "A wheel of fortune game using Winwheel.js",
+  "main": "sinhnhat.html",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.7"
+  }
+}

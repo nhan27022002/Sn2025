@@ -1,18 +1,5 @@
 {
-  "projects": [
-    {
-      "src": "sinhnhat.html",
-      "use": "@vercel/next"
-    },
-    {
-      "src": "index.html",
-      "use": "@vercel/next"
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "index.html/$1"
-    }
-  ]
-}
+    "routes": [
+      { "src": "/", "dest": "/sinhnhat.html" }
+    ]
+  }
